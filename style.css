@@ -1,0 +1,114 @@
+@font-face {
+    font-family: "benzin-bold"; 
+    src: url("fonts/Benzin-Bold.ttf") format("truetype"); 
+}
+
+@font-face {
+    font-family: "benzin-regular"; 
+    src: url("fonts/Benzin-Regular.ttf") format("truetype"); 
+}
+
+@font-face {
+    font-family: "benzin-medium"; 
+    src: url("fonts/Benzin-Medium.ttf") format("truetype"); 
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    user-select: none;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    font-family: "benzin-bold";
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.descr {
+    font-family: "benzin-medium";
+    font-size: 17px;
+    color: #CFCFCF;
+    left: 30px;
+}
+
+.battle-box {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.player, .opponent {
+    font-family: "benzin-bold";
+    text-align: center;
+}
+
+.number-box {
+    background-color: #555;
+    border: none;
+    border-radius: 10px;
+    padding: 1rem 2rem;
+    font-size: 4rem;
+    color: white;
+    text-align: center;
+    width: 130px;
+    font-family: "benzin-regular";
+    box-shadow: 5px 5px 5px #262626;
+}
+
+.number-box2 {
+    background-color: #555;
+    border: none;
+    border-radius: 10px;
+    padding: 1rem 2rem;
+    font-size: 64px;
+    color: white;
+    text-align: center;
+    width: 130px;
+    font-family: "benzin-regular";
+    box-shadow: 5px 5px 5px #262626;
+}
+
+.result {
+    font-family: "benzin-medium";
+    color: #32cd32;
+    font-size: 2rem;
+}
+
+.play {
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    background-color: #7AD96A;
+    cursor: pointer;
+    font-family: "benzin-medium";
+    color: #fff;
+    font-size: 15px;
+    box-shadow: 3px 5px 5px #262626;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
